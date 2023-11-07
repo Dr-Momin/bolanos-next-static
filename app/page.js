@@ -3,15 +3,16 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
 import HeroTwo from "@/components/HeroTwo";
+import PageWrapper from "@/components/Wrapper/PageWrapper";
 
 export default function Home() {
   return (
-    <main className="">
-      <Navbar />
+    <PageWrapper>
+
       <Hero />
 
       <HeroTwo />
-      <Footer />
-    </main>
+
+    </PageWrapper>
   );
 }

@@ -1,17 +1,14 @@
 import React from 'react';
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import PageWrapper from "@/components/Wrapper/PageWrapper";
 
-const Page = () => {
+const Cargo = () => {
   return (
     <PageWrapper>
 
-        <h1>Damage</h1>
-
-
+        Cargo
     </PageWrapper>
   );
 };
 
-export default Page;
+export default Cargo;

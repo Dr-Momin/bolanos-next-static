@@ -1,14 +1,12 @@
 import React from 'react';
-import Navbar from "@/components/Navbar";
 import PageWrapper from "@/components/Wrapper/PageWrapper";
 
-const Index = () => {
+const ContactUs = () => {
   return (
     <PageWrapper>
-
-        liability
+      Contact Us
     </PageWrapper>
   );
 };
 
-export default Index;
+export default ContactUs;
