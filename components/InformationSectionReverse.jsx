@@ -1,21 +1,26 @@
 import React from 'react';
 import {MdDone} from "react-icons/md";
 
-const InformationSection = ({
-                              headingNumber,
-                              heading,
-                              subHeading,
-                              subContent,
-                              bpOneContent,
-                              bpTwoContent,
-                              bpThreeContent
-                            }) => {
+const InformationSectionReverse = ({
+                                     headingNumber,
+                                     heading,
+                                     subHeading,
+                                     subContent,
+                                     bpOneContent,
+                                     bpTwoContent,
+                                     bpThreeContent
+                                   }) => {
   return (
     <div>
       <div className="">
         <div className="bg-white px-6 py-12 text-center  md:px-12 lg:text-left">
           <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
             <div className="grid items-center gap-12 lg:grid-cols-2">
+
+              <div className="mb-12 lg:mb-0">
+                <img src="/images/img_8.png"
+                     className="w-full " alt=""/>
+              </div>
 
               <div className=" mt-12 text-primary lg:mt-0 mx-auto lg:mx-0">
                 <div
@@ -30,7 +35,7 @@ const InformationSection = ({
                 <div className="flex flex-col gap-4">
 
                   <div className="space-y-2">
-                    <h5 class={"font-semibold text-black"}>{subHeading}</h5>
+                    <h5 className={"font-semibold text-black"}>{subHeading}</h5>
                     <p>{subContent}</p>
                   </div>
 
@@ -57,10 +62,7 @@ const InformationSection = ({
                 </div>
               </div>
 
-              <div className="mb-12 lg:mb-0">
-                <img src="/images/img_8.png"
-                     className="w-full " alt=""/>
-              </div>
+
             </div>
           </div>
         </div>
@@ -69,4 +71,4 @@ const InformationSection = ({
   );
 };
 
-export default InformationSection;
+export default InformationSectionReverse;

@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16">
         <Link href="/">
-          <h2 className={"text-lg tracking-[0.3rem] text-primary"}>BOLANOS</h2>
+          <img src={'/images/logo.png'} className={"w-32"} />
         </Link>
 
         <div className="flex items-center gap-5">
@@ -98,9 +98,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <h2 className={"text-lg tracking-[0.3rem] text-primary"}>
-                  BOLANOS
-                </h2>
+                <img src={'/images/logo.png'} className={"w-32"} />
               </Link>
               <div
                 onClick={handleNav}
