@@ -10,25 +10,17 @@ import InformationSectionReverse from "@/components/InformationSectionReverse";
 import InformationHeading from "@/components/InformationHeading";
 import SectionHeadingUnderLine from "@/components/subcomponents/SectionHeadingUnderline";
 import MarqueSection from "@/components/Home/MarqueSection";
-import SectionThree from "@/components/Home/SectionThree";
-import SectionFour from "@/components/Home/SectionFour";
-import Marque from "@/components/subcomponents/Marque";
+import SectionThree from "/components/Home/SectionThree";
+import SectionFour from "/components/Home/SectionFour";
 
 export default function Home() {
   return (
     <PageWrapper>
-
       <Hero/>
-
-
       <MarqueSection/>
-
-
       <SectionThree/>
       <SectionFour/>
-
       <HeroTwo/>
-
       <InformationHeading/>
       <InformationSection
         headingNumber={"1"}
@@ -61,9 +53,7 @@ export default function Home() {
       />
 
       <MarqueSection/>
-
       <Testimonial/>
-
     </PageWrapper>
   );
 }
