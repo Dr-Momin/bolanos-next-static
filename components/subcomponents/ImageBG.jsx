@@ -5,18 +5,17 @@ const ImageBg = ({heading, image}) => {
   return (
     <main>
       <div
-        className="hero h-[28rem]"
+        className="hero h-72 "
         style={{
           backgroundImage: `url(${image})`,
+          objectFit: "cover"
         }}
       >
-        <div className="hero-overlay"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mt-10 text-3xl font-bold capitalize text-white my-auto">
+        <div className="bg-opacity-60 "></div>
+          <div className="max-w-md ">
+            <h1 className="mt-10 text-3xl font-bold capitalize text-white ">
               {heading}
             </h1>
-          </div>
         </div>
       </div>
     </main>
