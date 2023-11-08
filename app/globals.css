@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bol-container{
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+}

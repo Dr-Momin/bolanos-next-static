@@ -1,14 +1,15 @@
 import React from 'react';
 import Navbar from "@/components/Navbar";
 import PageWrapper from "@/components/Wrapper/PageWrapper";
+import Insurance from "@/components/Wrapper/Insurance";
 
-const Index = () => {
+const Page = () => {
   return (
     <PageWrapper>
 
-        liability
+        <Insurance />
     </PageWrapper>
   );
 };
 
-export default Index;
+export default Page;
