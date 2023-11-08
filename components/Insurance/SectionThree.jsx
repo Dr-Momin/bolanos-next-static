@@ -2,6 +2,7 @@ import React from 'react';
 import {MdDone} from "react-icons/md";
 
 const SectionThree = ({
+                        image,
                         heading,
                         bpOneHeading,
                         bpOneContent,
@@ -14,7 +15,7 @@ const SectionThree = ({
     <div className=" bg-white">
       <div className="bol-container">
         <div className="grid lg:grid-cols-2 ">
-          <img src="/images/img_2.png" className="max-w-md rounded-lg shadow-2xl"/>
+          <img src={image} className="max-w-md rounded-lg shadow-2xl"/>
           <div className="text-primary  space-y-8">
             <h4 className="text-center font-bold">{heading}</h4>
 

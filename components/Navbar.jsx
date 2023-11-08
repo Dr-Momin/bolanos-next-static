@@ -99,7 +99,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <h2 className={"text-lg tracking-[0.3rem] text-primary"}>
-                  SPORE
+                  BOLANOS
                 </h2>
               </Link>
               <div
@@ -111,31 +111,40 @@ const Navbar = () => {
             </div>
           </div>
           <div className="pt-24 flex flex-col justify-center items-center gap-12">
-            <ul className="uppercase  text-center font-bold ">
+            <ul className="uppercase text-primary text-center font-bold ">
               <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home
                 </li>
               </Link>
-              <Link href="/about">
+              <Link href="/product-services">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Product & Services
+                </li>
+              </Link>
+              <Link href="/faq">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  FAQs
+                </li>
+              </Link>
+              <Link href="/about-us">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About Us
                 </li>
               </Link>
-              <Link href="/features">
+              <Link href="/login">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Features
+                  Login
                 </li>
               </Link>
             </ul>
 
             <button
               className={
-                "bg-[#005ff9] flex text-white px-4 py-1 rounded-full items-center gap-2"
+                "bg-primary flex text-white px-6 py-3 rounded-lg items-center gap-2 text-xs"
               }
             >
-              {" "}
-              Sign in
+              Sign Up
               {/* <Image src={user} width={"20"} height={"20"} className={""} />  */}
             </button>
           </div>
