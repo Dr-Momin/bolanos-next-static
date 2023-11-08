@@ -8,6 +8,9 @@ const PageWrapper = ({children}) => {
       <Navbar />
         {children}
       <Footer/>
+      <div className="bg-white">
+        <p className="text-center text-sm text-primary py-4">© 2023 All Rights Reserved. Bolanos</p>
+      </div>
     </main>
   );
 };

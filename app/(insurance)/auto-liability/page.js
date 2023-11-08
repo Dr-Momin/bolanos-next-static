@@ -22,7 +22,7 @@ const Page = () => {
       />
 
       <SectionThree
-        image={"/images/img_6.png"}
+        image={"/images/img_2.png"}
         heading={"3 Reasons for Getting Auto Liability Insurance"}
         bpOneHeading={"Protects against financial loss in the event of an accident"}
         bpOneContent={"Auto liability insurance can help cover the costs of property damage, medical bills, and legal fees if a trucker is found to be at fault in an accident."}

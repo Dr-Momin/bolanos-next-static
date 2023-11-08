@@ -8,12 +8,10 @@ import ContactForm from "@/components/ContactForm";
 const ContactUs = () => {
   return (
     <PageWrapper>
-
       <ImageBG
         image={"/images/img_9.png"}
         heading={"Contact Us"}
       />
-
       <ContactForm />
       <Faq />
       <Map />
