@@ -17,7 +17,7 @@ const InformationSection = ({
             <div className="grid items-center gap-12 lg:grid-cols-2">
 
               <div className=" mt-12 text-primary lg:mt-0 mx-auto lg:mx-0">
-                <div class="bg-primary text-white p-3 px-6 rounded-full w-fit mb-8 mx-auto lg:mx-0 lg:mb-16">
+                <div className="bg-primary text-white p-3 px-6 rounded-full w-fit mb-8 mx-auto lg:mx-0 lg:mb-16">
                   {heading}
                 </div>
                 <ol className="flex flex-col gap-6">

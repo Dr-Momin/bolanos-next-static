@@ -30,7 +30,7 @@ const InformationSection = ({
                 <div className="flex flex-col gap-4">
 
                   <div className="space-y-2">
-                    <h5 class={"font-semibold text-black"}>{subHeading}</h5>
+                    <h5 className={"font-semibold text-black"}>{subHeading}</h5>
                     <p>{subContent}</p>
                   </div>
 
